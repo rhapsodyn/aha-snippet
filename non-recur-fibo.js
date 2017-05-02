@@ -1,3 +1,4 @@
+//instead of return fibo(n-1) + fibo(n-2), saving stacks & more effective
 function fibo(n) {
     let cache = [1, 1];
 
