@@ -1,3 +1,6 @@
+// https://en.wikipedia.org/wiki/Radix_tree
+// 如果自己要实现简单的router（不带参数，不带正则），这个数据结构就很厉害了
+
 function printTree(root) {
   let queue = [];
   queue.push({ n: root, level: 0 });
